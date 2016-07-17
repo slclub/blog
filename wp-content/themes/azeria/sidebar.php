@@ -14,5 +14,7 @@
 		if ( is_active_sidebar( 'sidebar-1' ) ) {
 			dynamic_sidebar( 'sidebar-1' ); 
 		}
+
+		do_action( 'azeria_after_sidebar' );
 	?>
 </div><!-- #secondary -->

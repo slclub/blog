@@ -12,9 +12,9 @@
 // slider in showcase area
 add_action( 'azeria_showcase_area', 'azeria_slider' );
 // about box in sidebar
-add_action( 'azeria_before_sidebar', 'azeria_about_box' );
+//add_action( 'azeria_before_sidebar', 'azeria_about_box' );
 // follow box in sidebar
-add_action( 'azeria_before_sidebar', 'azeria_follow_box', 15 );
+add_action( 'azeria_after_sidebar', 'azeria_follow_box', 15 );
 // modify default comment form
 add_filter( 'comment_form_default_fields', 'azeria_comment_form_fields' );
 // modify excerpt more symbols
