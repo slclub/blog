@@ -12,7 +12,7 @@
 // slider in showcase area
 add_action( 'azeria_showcase_area', 'azeria_slider' );
 // about box in sidebar
-//add_action( 'azeria_before_sidebar', 'azeria_about_box' );
+add_action( 'azeria_before_sidebar', 'azeria_about_box' );
 // follow box in sidebar
 add_action( 'azeria_after_sidebar', 'azeria_follow_box', 15 );
 // modify default comment form
