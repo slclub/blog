@@ -263,7 +263,7 @@ function azeria_fonts_url() {
 		$query_args['subset'] = urlencode( 'latin,latin-ext,cyrillic' );
 	}
 
-	$fonts_url = add_query_arg( $query_args, '//fonts.googleapis.com/css' );
+	$fonts_url = $fonts_ur ? : null; //ladd_query_arg( $query_args, '//fonts.googleapis.com/css' );
 
 	return $fonts_url;
 }
